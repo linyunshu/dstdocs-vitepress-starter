@@ -44,6 +44,8 @@ export default defineConfig({
   },
   // 更新时间
   lastUpdated: true,
+  //忽略死链接
+  ignoreDeadLinks: true,
 
 })
 
