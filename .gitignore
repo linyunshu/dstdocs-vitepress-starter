@@ -1,0 +1,21 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有编译生成的文件和目录
+build/
+dist/
+out/
+tmp/
+temp/
+*.zip
+*.tar.gz
+
+# 忽略 node_modules 目录
+node_modules/
+
+# 忽略操作系统自动生成的文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+._*
