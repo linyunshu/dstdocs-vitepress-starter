@@ -1,7 +1,7 @@
 import { DefaultTheme } from 'vitepress';
 
 export const nav: DefaultTheme.NavItem[] = [
-    { text: 'Home', link: '/' },
+    { text: '主页', link: '/' },
     {
       text: '个人成长',
       items: [
@@ -17,7 +17,7 @@ export const nav: DefaultTheme.NavItem[] = [
     },
     { text: '前端开发', link: '/front-end/' },
     { text: '后端开发', link: '/rear-end/' },
-    { text: '数据库', link: '/guide' },
+    { text: '数据库', link: '/guide/' },
     { text: 'Python', link: '/config/' },
     {
         text: 'itme-3',
