@@ -2,7 +2,7 @@
 import { DefaultTheme } from 'vitepress';
 
 export const sidebar: DefaultTheme.Sidebar = {
-  '/': [
+  '/navz': [
     {
       text: 'Examples',
       items: [
@@ -34,6 +34,26 @@ export const sidebar: DefaultTheme.Sidebar = {
         { text: 'Index', link: '/rear-end/' },
         { text: 'One', link: '/rear-end' },
         { text: 'Two', link: '/rear-end' }
+      ]
+    }
+  ],
+  '/database/sql/': [
+    {
+      text: 'SQL 教程',
+      items: [
+        { text: '主页', link: '/database/sql/' },
+        { text: 'Three', link: '/database/sql/5' },
+        { text: 'Four', link: '/database/four' }
+      ]
+    }
+  ],
+  '/database/mysql/': [
+    {
+      text: 'MySQL 教程',
+      items: [
+        { text: '主页', link: '/database/mysql/index/' },
+        { text: 'Three', link: '/database/three' },
+        { text: 'Four', link: '/database/four' }
       ]
     }
   ],
