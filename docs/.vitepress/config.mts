@@ -5,10 +5,10 @@ import { head, nav, sidebar } from './configs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // base: "./",
+  // base: process.env.APP_BASE_PATH || '/',
   // 图片真实路径是./public/img/logo.png，不使用public文件夹图片打包后不生效
   // 输出目录
-  outDir: '../dist',
+  // outDir: '../dist',
 
   lang: 'zh-CN',
   title: 'Simon 技术文档',
