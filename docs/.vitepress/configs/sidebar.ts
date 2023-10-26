@@ -37,31 +37,34 @@ export const sidebar: DefaultTheme.Sidebar = {
       ]
     }
   ],
-  '/database/sql/': [
+  '/database/sql': [
     {
       text: 'SQL 教程',
       items: [
-        { text: '主页', link: '/database/sql/' },
+        { text: '主页', link: '/database/sql' },
         { text: 'Three', link: '/database/sql/5' },
         { text: 'Four', link: '/database/four' }
       ]
     }
   ],
-  '/database/mysql/': [
+  '/database/mysql': [
     {
       text: 'MySQL 教程',
       items: [
-        { text: '主页', link: '/database/mysql/index/' },
+        { text: '主页', link: '/database/mysql' },
         { text: 'Three', link: '/database/three' },
         { text: 'Four', link: '/database/four' }
       ]
     }
   ],
-  '/config/': [
+  '/interview': [
     {
-      text: 'Config',
+      text: '',
       items: [
-        { text: 'Index', link: '/config/' },
+        { text: 'Index', link: '/interview/java' },
+        { text: 'Three', link: '/config/three' },
+        { text: 'Four', link: '/config/four' },
+        { text: 'Index', link: '/interview/java' },
         { text: 'Three', link: '/config/three' },
         { text: 'Four', link: '/config/four' }
       ]

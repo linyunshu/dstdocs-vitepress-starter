@@ -13,13 +13,21 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'Simon 技术文档',
   description: '个人搭建的有关IT技术文档 ',
-  
+
   head,
 
-   // markdown 配置 
-   markdown: {
+  // markdown 配置 
+  markdown: {
     lineNumbers: true, // 行号
   },
+  // 是否最后更新时间
+  lastUpdated: true,
+
+  // 是否启用干净的 URL
+  cleanUrls: true,
+
+  //忽略死链接
+  ignoreDeadLinks: true,
 
   // 主题配置
   themeConfig: {
@@ -31,8 +39,8 @@ export default defineConfig({
 
     // 右侧大纲配置
     outline: {
-      level: [2, 4],   //deep
-      label: '目录'
+      level: [1, 4],  //deep
+      label: '目录',
     },
 
     docFooter: {
@@ -46,7 +54,7 @@ export default defineConfig({
     },
 
     //国际化i18n
-    i18nRouting: true,
+    i18nRouting: false,
 
     langMenuLabel: '英文',
 
@@ -63,25 +71,21 @@ export default defineConfig({
         ariaLabel: 'cool link'
       }
     ],
-    
+
     // 页脚
     footer: {
       message: '<a href="https://beian.miit.gov.cn/" target="_blank">基于VitePress搭建</a>',
       copyright: 'Copyright © 2019-present Simon'
-    }
+    },
+
+    darkModeSwitchLabel: '外观',
+    returnToTopLabel: '返回顶部',
+    lastUpdatedText: '上次更新',
+
+    // 外部链接图标
+    externalLinkIcon: true,
+
+
   },
-  // 更新时间
-  lastUpdated: true,
-
-  darkModeSwitchLabel: '外观',
-  returnToTopLabel: '返回顶部',
-  lastUpdatedText: '上次更新',
-
-  // 外部链接图标
-  externalLinkIcon: true,
-
-  //忽略死链接
-  ignoreDeadLinks: true,
-
 })
 

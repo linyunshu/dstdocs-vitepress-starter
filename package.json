@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "medium-zoom": "^1.0.8",
-    "sass": "^1.69.4",
+    "sass": "^1.69.5",
     "vitepress": "1.0.0-rc.22",
     "vue": "^3.3.6"
   },

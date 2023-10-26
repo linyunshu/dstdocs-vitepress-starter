@@ -30,11 +30,12 @@ export const nav: DefaultTheme.NavItem[] = [
   },
   { text: 'Python', link: '/config/' },
   {
-    text: 'itme-3',
+    text: '面试题',
     items: [
       {
+        text: '',
         items: [
-          { text: 'section-A-1', link: '/test/sectionA-1' },
+          { text: 'Java', link: '/interview/java/javabase' },
           { text: 'section-A-2', link: '/test/sectionA-2' },
           { text: 'section-A-3', link: '/test/sectionA-3' },
         ]
